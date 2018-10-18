@@ -1,0 +1,25 @@
+{
+  "name": "cssinjector",
+  "version": "1.0.0",
+  "description": "Inject css rules to style tag of document head dynamcially with javascript",
+  "main": "cssInjector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creanick/cssInjector.git"
+  },
+  "keywords": [
+    "css",
+    "injector",
+    "style-inject",
+    "inject"
+  ],
+  "author": "Manick Lal Jamadar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Creanick/cssInjector/issues"
+  },
+  "homepage": "https://github.com/Creanick/cssInjector#readme"
+}

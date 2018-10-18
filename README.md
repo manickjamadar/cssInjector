@@ -2,16 +2,22 @@
 
 Inject css rules to style tag of document head dynamically with javascript
 
+## Installation
+
+```javascript
+npm install cssinjector
+```
+
 ## Import
 
 ```javascript
-const CssInjector = require('cssInjector');
+const CssInjector = require('cssinjector');
 ```
 
 ## Syntax
 
 ```javascript
-CssInjector.inject(cssString:String,insertTop:boolean);
+CssInjector.inject(cssString:String,insertTop:Boolean);
 ```
 
 CssString : css style as string which you want to inject;
