@@ -4,27 +4,25 @@ Inject css style to document head dynamically with javascript
 
 ## Import
 
-```ruby
+```javascript
 import CssInjector from "cssInjector";
 ```
 
 ## Syntax
 
-```ruby
+```javascript
 CssInjector.inject(cssString:String,insertTop:boolean);
 ```
 
-cssString : css style as string which you want to inject;
+CssString : css style as string which you want to inject;
 
-inserTop: default false, if true and already style tag exist then
-
-it inject css rules at the top of any existing css rules
+InsertTop : default false, if true and already style tag exist then it inject css rules at the top of any existing css rules
 
 ## Example
 
-#### InserTop : false
+#### InsertTop : false
 
-```ruby
+```javascript
 CssInjector.inject(`
     body{
         margin: 0;
@@ -38,7 +36,7 @@ CssInjector.inject(`
 
 #### InsertTop : true
 
-```ruby
+```javascript
 CssInjector.inject(`
     body{
         margin: 0;
