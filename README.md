@@ -8,9 +8,15 @@ Inject css style to document head dynamically with javascript
 import CssInjector from "cssInjector";
 ```
 
+## Syntax
+
+```
+CssInjector.inject(cssString) //cssString : css style as string which you want to inject
+```
+
 ## Example
 
-```javascript
+```ruby
 CssInjector.inject(`
     body{
         margin: 0;
