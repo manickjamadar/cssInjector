@@ -1,4 +1,4 @@
-class CssInjector{
+module.exports = class CssInjector{
     static inject(cssString,insertTop){
         if( !cssString || typeof cssString !== 'string' || typeof document === 'undefined')return;
         const head = document.head || document.getElementsByTagName('head')[0];
