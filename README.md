@@ -1,6 +1,6 @@
 # Css Injector
 
-Inject css style to document head dynamically with javascript
+Inject css rules to style tag of document head dynamically with javascript
 
 ## Import
 
