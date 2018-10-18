@@ -5,13 +5,13 @@ Inject css rules to style tag of document head dynamically with javascript
 ## Installation
 
 ```javascript
-npm install cssinjector
+npm install @creanick/cssinjector
 ```
 
 ## Import
 
 ```javascript
-const CssInjector = require('cssinjector');
+const CssInjector = require('@creanick/cssinjector');
 ```
 
 ## Syntax

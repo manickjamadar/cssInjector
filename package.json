@@ -1,5 +1,5 @@
 {
-  "name": "cssinjector",
+  "name": "@creanick/cssinjector",
   "version": "1.0.0",
   "description": "Inject css rules to style tag of document head dynamcially with javascript",
   "main": "cssInjector.js",
