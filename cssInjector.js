@@ -1,6 +1,6 @@
-export default class CssInjector{
-    static inject(cssString){
-        if(!cssString || typeof document === 'undefined')return;
+class CssInjector{
+    static inject(cssString,insertTop){
+        if( !cssString || typeof cssString !== 'string' || typeof document === 'undefined')return;
         const head = document.head || document.getElementsByTagName('head')[0];
         let inlineStyle = document.querySelector("style");
         if(inlineStyle === null){
@@ -8,10 +8,12 @@ export default class CssInjector{
             inlineStyle.type = "text/css";
             head.appendChild(inlineStyle);
         }
-        if(inlineStyle.styleSheet){
-            inlineStyle.styleSheet.cssText = cssString;
+        const cssTextNode = document.createTextNode(cssString);
+        const styleChild = inlineStyle.childNodes[0];
+        if(insertTop){
+            inlineStyle.insertBefore(cssTextNode,styleChild);
         }else{
-            inlineStyle.appendChild(document.createTextNode(cssString));
+            inlineStyle.insertBefore(cssTextNode,null);
         }
     }
 }
