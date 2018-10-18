@@ -5,7 +5,7 @@ Inject css style to document head dynamically with javascript
 ## Import
 
 ```javascript
-import CssInjector from "cssInjector";
+const CssInjector = require('cssInjector');
 ```
 
 ## Syntax
