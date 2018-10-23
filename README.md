@@ -3,7 +3,7 @@
 Inject css rules to style tag of document head dynamically with javascript
 
 ```
-Note: Actual file written wtih javascript es6 syntax so for supporting old browser you have to compile it older version javascript
+Note: Actual file written wtih javascript es6 syntax so for supporting old browser you have to compile it to older version javascript
 ```
 
 ## Installation
@@ -24,7 +24,7 @@ const CssInjector = require('@creanick/cssinjector');
 CssInjector.inject(cssString:String,insertTop:Boolean) : Boolean;
 ```
 
-CssString : css style as string which you want to inject if it fails parsing css String as string it return false otherwise return true on success;
+CssString : css style as string which you want to inject if it fails parsing css String as string it return false otherwise return true after successfully inject css rules;
 
 InsertTop : default false, if true and already style tag exist then it inject css rules at the top of any existing css rules
 
