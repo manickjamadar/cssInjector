@@ -1,6 +1,6 @@
 module.exports = class CssInjector{
     static inject(cssString,insertTop){
-        if( !cssString || typeof cssString !== 'string' || typeof document === 'undefined')return;
+        if( !cssString || typeof cssString !== 'string' || typeof document === 'undefined')return false;
         const head = document.head || document.getElementsByTagName('head')[0];
         let inlineStyle = document.querySelector("style");
         if(inlineStyle === null){
@@ -15,5 +15,6 @@ module.exports = class CssInjector{
         }else{
             inlineStyle.insertBefore(cssTextNode,null);
         }
+        return true;
     }
 }
