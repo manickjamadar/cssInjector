@@ -2,6 +2,8 @@
 
 Inject css rules to style tag of document head dynamically with javascript
 
+You Find the npm project here - [Css Injector](https://www.npmjs.com/package/@creanick/cssinjector)
+
 ```
 Note: Actual file written wtih javascript es6 syntax so for supporting old browser you have to compile it to older version javascript
 ```
