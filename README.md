@@ -5,7 +5,8 @@ Inject css rules to style tag of document head dynamically with javascript
 You Find the npm project here - [Css Injector](https://www.npmjs.com/package/@creanick/cssinjector)
 
 ```
-Note: Actual file written wtih javascript es6 syntax so for supporting old browser you have to compile it to older version javascript
+Note: Actual file written wtih javascript es6 syntax so for supporting old browser
+you have to compile it to older version javascript
 ```
 
 ## Installation
@@ -60,4 +61,13 @@ CssInjector.inject(`
 `,true);
 ```
 
-It's is under ISC license, it can be use in any commercial and non commercial project without any charges
+## Contributing
+Contributions to css injector are more than welcome! If you encounter any bugs, issues, or have suggestions for improvements, please [create an issue](https://github.com/cssInjector/chatly/issues) or submit a pull request.
+
+## License
+Css Injector is open-source and released under the [MIT License](https://chat.openai.com/LICENSE). Feel free to use, modify, and distribute this project as per the terms of the license.
+
+## Contact
+If you have any questions or inquiries about Css Injector, please feel free to contact me at [manickjamadar@gmail.com](mailto:manickjamadar@gmail.com). I'm always excited to discuss potential collaborations or new opportunities.
+
+Thank you for considering Css Injector as a remarkable solution. We look forward to the opportunity of working together and revolutionizing the way people connect and communicate.
